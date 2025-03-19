@@ -1,0 +1,10 @@
+Analisis:
+Pada percobaan minggu ke-5 ini, saya menggunakan YOLOv8 Pose untuk mendeteksi pose manusia. Teknik Human Pose Estimation (HPE) digunakan untuk mendeteksi titik-titik utama tubuh. Program dibagi menjadi tiga: deteksi pada gambar, video, dan real-time. Hasil menunjukkan bahwa YOLOv8 memiliki akurasi tinggi dan lebih cepat dibandingkan metode lain seperti OpenPose dan MediaPipe, karena mendeteksi keypoints tubuh dalam satu tahap. Namun, akurasi menurun dalam pencahayaan rendah.
+
+Diskusi :
+1.	YOLOv8 Pose berguna dalam robotika dan otomasi industri untuk meningkatkan efisiensi, keselamatan, dan interaksi manusia-mesin, seperti pada navigasi robot otonom dan kontrol kualitas.
+2.	Tantangan dalam deteksi pose real-time: 
+o	Performa komputasi
+o	Pencahayaan buruk
+o	Akurasi dan Kecepatan
+3.	Untuk meningkatkan akurasi deteksi, perlu menggunakan dataset yang beragam, resolusi tinggi, dan perbaikan anotasi dataset.
